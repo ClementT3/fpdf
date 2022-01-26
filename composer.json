@@ -1,0 +1,24 @@
+{
+    "name": "clementt3/fpdf",
+    "homepage": "http://www.fpdf.org",
+    "description": "FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.",
+    "type": "library",
+    "keywords": ["pdf", "fpdf"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clément Touquet",
+            "email": "contact@clement-touquet.dev",
+            "homepage": "http://fpdf.org/"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "fpdf.php"
+        ]
+    },
+    "require": {
+        "ext-zlib": "*",
+        "ext-gd": "*"
+    }
+}
